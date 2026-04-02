@@ -1,0 +1,37 @@
+# Go
+tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Air
+build-errors.log
+
+# Environment
+.env
+.env.local
+
+# SQLite
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Node (husky/commitlint)
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
